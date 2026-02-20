@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/signature-v4-multi-region`](https://www.npmjs.com/package/@aws-sdk/signature-v4-multi-region/v/3.127.0).
+[`@aws-sdk/signature-v4-multi-region`](https://www.npmjs.com/package/@aws-sdk/signature-v4-multi-region/v/3.128.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.127.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.128.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gzwqOpiL/zs9ukvF9NQI/CwKa8aflcVspoM09I3c24yI5fxQoKr9sLn5nvRVVSFY
+sha384-ZHj+nGC1f4tNQ7hkyhzpVFmw0M6FN1h7U1tJT3657ez7YrhvIDht0xIJ7gkmvJhF
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/signature-v4-multi-region": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.127.0/index.min.mjs"
+            "@aws-sdk/signature-v4-multi-region": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.128.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.127.0/index.min.mjs": "sha384-gzwqOpiL/zs9ukvF9NQI/CwKa8aflcVspoM09I3c24yI5fxQoKr9sLn5nvRVVSFY"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.128.0/index.min.mjs": "sha384-ZHj+nGC1f4tNQ7hkyhzpVFmw0M6FN1h7U1tJT3657ez7YrhvIDht0xIJ7gkmvJhF"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/signature-v4-multi-region": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.127.0/index.min.mjs"
+                        "@aws-sdk/signature-v4-multi-region": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.128.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.127.0/index.min.mjs": "sha384-gzwqOpiL/zs9ukvF9NQI/CwKa8aflcVspoM09I3c24yI5fxQoKr9sLn5nvRVVSFY"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/signature-v4-multi-region@3.128.0/index.min.mjs": "sha384-ZHj+nGC1f4tNQ7hkyhzpVFmw0M6FN1h7U1tJT3657ez7YrhvIDht0xIJ7gkmvJhF"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.127.0`)
+* Always pin to a specific version (`@3.128.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/signature-v4-multi-region/blob/refs/tags/3.127.0/LICENSE
+https://github.com/cloud-sdk-builds/signature-v4-multi-region/blob/refs/tags/3.128.0/LICENSE
 ```
 
 ---
